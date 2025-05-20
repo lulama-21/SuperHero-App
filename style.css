@@ -1,0 +1,21 @@
+.gallery img {
+  width: 100%;
+}
+
+h2,
+h3 {
+  color: deepskyblue;
+  font-weight: bold;
+  text-align: center;
+}
+
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+p:hover {
+  color: red;
+  font-size: larger;
+}
