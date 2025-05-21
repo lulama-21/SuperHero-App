@@ -1,11 +1,49 @@
+#index {
+  background-image: url(images/bg-5.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
 .gallery img {
   width: 100%;
+  box-sizing: border-box;
+}
+
+article,
+p {
+  color: white;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 0.5rem;
+}
+
+.read-more-hyperlink {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: 900;
+  transition: all 0.4s ease-in-out;
+  align-items: center;
+}
+
+.read-more-hyperlink:hover {
+  color: #005f99;
 }
 
 h2,
 h3 {
-  color: deepskyblue;
-  font-weight: bold;
+  color: red;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -13,9 +51,4 @@ section {
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-}
-
-p:hover {
-  color: red;
-  font-size: larger;
 }
